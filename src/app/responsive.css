@@ -1,0 +1,334 @@
+/** TABLET **/
+@media (min-width: 768px) {
+  /****************
+  GLOBAL
+  ****************/
+  h1 {
+    font-family: var(--font-montreal);
+    font-size: 60px;
+    font-weight: var(--fregular);
+    line-height: 66px;
+  }
+
+  h2 {
+    font-family: var(--font-montreal);
+    font-size: 54px;
+    font-weight: var(--fregular);
+    line-height: 64px;
+  }
+
+  h3 {
+    font-family: var(--font-montreal);
+    font-size: 48px;
+    font-weight: var(--fregular);
+    line-height: 58px;
+  }
+
+  .beside-container {
+    width: 100%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-padding {
+    padding: calc(var(--section-padding) + 40px) 0;
+  }
+
+  /****************
+  NAVBAR
+  ****************/
+
+  .nav-link-a {
+    margin-top: 0;
+  }
+
+  .nav-links {
+    margin-top: 0;
+  }
+
+  .nav-link {
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .nav-link a {
+  }
+
+  .nav-link span {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .nav-link {
+    margin-bottom: 0px;
+  }
+
+  .btn-nav {
+    padding: 10px 14px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .mobile-btn-nav {
+    margin-top: 0;
+  }
+
+  .nav-link.active {
+    background-color: var(--bg-secondary);
+  }
+
+  .nav-link:hover {
+    background-color: var(--bg-secondary);
+  }
+
+  /****************
+  HEADER
+  ****************/
+
+  #header {
+    /*padding: 160px 0;*/
+    height: auto;
+    padding: 75px 0;
+  }
+
+  .header-left {
+    max-width: inherit;
+    width: 100%;
+  }
+
+  .btn-header {
+    width: inherit;
+  }
+
+  .btn-header-study {
+    width: inherit;
+  }
+
+  .header-right-img {
+    display: none;
+  }
+
+  /****************
+  SERVICES
+  ****************/
+
+  .serv-heading,
+  #services h6 {
+    max-width: 473px;
+  }
+
+  #services h6 {
+    margin-bottom: 0;
+  }
+
+  #services h2 {
+    margin-bottom: 24px;
+  }
+
+  .service-card {
+    margin-top: 60px;
+  }
+
+  /****************
+  BENEFITS
+  ****************/
+
+  #benefits {
+    margin: 0;
+  }
+
+  .benefits-heading {
+    max-width: 626px;
+  }
+
+  #benefits h2,
+  #benefits h6 {
+    margin-bottom: 24px;
+  }
+
+  /****************
+  WORK
+  ****************/
+
+  #work.section-padding {
+    padding-bottom: calc(var(--section-padding) + 40px);
+  }
+
+  .work-heading,
+  #work h6 {
+    max-width: 473px;
+  }
+
+  #work h2 {
+    margin-bottom: 24px;
+  }
+
+  #work h6 {
+    margin-bottom: 0;
+  }
+
+  .work-btn {
+    margin-bottom: 0;
+  }
+
+  .work-card {
+    margin-top: 60px;
+  }
+
+  .work-card-body-mobile {
+    padding: 32px 32px 0 32px;
+    height: 230px;
+  }
+
+  .work-card-body-desktop {
+    padding: 44px 44px 0 44px;
+    height: 254px;
+  }
+
+  /****************
+  BLOG
+  ****************/
+
+  #blog-preview h2 {
+    margin-bottom: 0;
+  }
+
+  .btn-blog {
+    margin-bottom: 0;
+  }
+
+  .blog-card {
+    margin-top: 60px;
+  }
+
+  /****************
+  FAQ
+  ****************/
+
+  .faq-heading {
+    max-width: 353px;
+  }
+
+  #faq h2 {
+    margin-bottom: 24px;
+  }
+
+  .faq-content {
+    max-width: 620px;
+  }
+
+  /****************
+  FOOTER
+  ****************/
+
+  .call-to-action-card {
+    padding: 40px;
+  }
+
+  .call-to-action-card .cta-btn-one {
+    width: inherit;
+  }
+
+  .call-to-action-card .cta-btn-two {
+    width: inherit;
+  }
+
+  .call-to-action-body {
+    margin-bottom: 0;
+    display: none;
+  }
+
+  .call-to-action-body img {
+    margin-bottom: 0;
+  }
+
+  .contactmail {
+    margin-top: 0;
+  }
+
+  .footer-copyright .copyright,
+  .footer-copyright .impterms {
+    margin-bottom: 0;
+  }
+
+  /****************
+  CONTACT
+  ****************/
+
+  #contact.section-padding {
+    padding: calc(var(--section-padding) + 40px) 0;
+  }
+
+  #contact .section-heading {
+    max-width: 680px;
+    text-align: left;
+    padding-bottom: 0;
+  }
+
+  #contact .section-heading h1 {
+    margin-bottom: 24px;
+  }
+
+  #contact .section-heading h6 {
+    color: var(--cpara);
+  }
+
+  .form-card {
+    margin-top: calc(var(--section-padding) + 40px);
+  }
+
+  .submitTerms {
+    margin-top: 0;
+  }
+}
+
+/** DESKTOP **/
+@media (min-width: 1024px) {
+  /****************
+  HEADER
+  ****************/
+
+  .header-right-img {
+    display: block;
+  }
+
+  .header-left {
+    max-width: 440px;
+  }
+
+  /****************
+  BENEFITS
+  ****************/
+
+  #benefits {
+    margin: 0 30px;
+  }
+
+  /****************
+  WORK
+  ***************/
+
+  .work-card-body-mobile {
+    padding: 40px 40px 0 40px;
+    height: 350px;
+  }
+
+  .work-card-body-desktop {
+    padding: 50px 50px 0 50px;
+    height: 350px;
+  }
+
+  .call-to-action-body {
+    display: block;
+  }
+
+  /****************
+  FAQ
+  ****************/
+
+  .faq-content {
+    max-width: 800px;
+  }
+}

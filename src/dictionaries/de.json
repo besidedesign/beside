@@ -1,0 +1,215 @@
+{
+  "navigation": {
+    "services": "Dienstleistungen",
+    "benefits": "Vorteile",
+    "work": "Projekte",
+    "faq": "FAQ",
+    "navbtn": "Kontakt"
+  },
+  "page": {
+    "header": {
+      "title": "Beside erstellt Websites für dein Geschäft",
+      "subtitle": "Beside ist eine UI/UX Design Agentur, die deine Website zum Erfolgsfaktor macht.",
+      "cta_started": "Jetzt starten",
+      "cta_study": "Projekte"
+    },
+    "services": {
+      "title": "Leistungsstarke Landing- und Business-Pages",
+      "subtitle": "Beside leistet umfassende Services für deinen Webauftritt und deine Reichweite",
+      "button": "Jetzt anfangen",
+      "servicecards": [
+        {
+          "title": "Web Design",
+          "para": "Responsive und SEO-optimierte Landing- und Business-Pages"
+        },
+        {
+          "title": "Entwicklung",
+          "para": "Skalierbarer und sicherer Code, erstellt mit Next.js"
+        },
+        {
+          "title": "Hosting",
+          "para": "Einfacher Hosting Support für schnelle Ladezeiten"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile an einem Ort",
+      "subtitle": "Vom Google Full-Service bis zur Optimierung der Conversion-Raten. Entdecken Sie alle unsere Vorteile an einem Ort.",
+      "button": "Wähle deinen Service",
+      "benefitcards": [
+        {
+          "title": "Markenimage",
+          "para": "Gewinne Aufmerksamkeit und Kundentreue.",
+          "img": "/brandimage.riv"
+        },
+        {
+          "title": "Google-Sichtbarkeit",
+          "para": "Werde von deiner Zielgruppe gefunden.",
+          "img": "/google.riv"
+        },
+        {
+          "title": "Conversion-Raten",
+          "para": "Steigere deine Verkäufe und Kundenbindungen.",
+          "img": "/conversion.riv"
+        },
+        {
+          "title": "Schnelle Ladezeiten",
+          "para": "Schnelle Ladezeiten für reibungslose Benutzererfahrungen.",
+          "img": "/fastloading.riv"
+        },
+        {
+          "title": "Moderne User-Experience",
+          "para": "Intuitive Benutzeroberflächen für deine Website-Besucher.",
+          "img": "/user_experience.riv"
+        },
+        {
+          "title": "DSGVO-Konformität",
+          "para": "Einhaltung der Datenschutzgesetze für Sicherheit und Vertrauen.",
+          "img": "/dsgvo.riv"
+        }
+      ]
+    },
+    "work": {
+      "title": "Aktuelle Projekte",
+      "subtitle": "Entdecke unsere neuesten Projekte: Ein Portfolio von aktuellen Projekten und innovativen Designs",
+      "button": "Alle anzeigen",
+      "workcards": [
+        {
+          "title": "Mobile",
+          "para": "Schnelle Tisch-Reservierung per Handy",
+          "img": "/de/work_iphone.png",
+          "img_class": "work-card-img-mobile",
+          "cardBodyClass": "work-card-body-mobile"
+        },
+        {
+          "title": "Desktop",
+          "para": "Landing Page, Tisch-Reservierung und Menü-Karte",
+          "img": "/de/work_macbook.png",
+          "img_class": "work-card-img-desktop",
+          "cardBodyClass": "work-card-body-desktop"
+        }
+      ]
+    },
+    "blogpreview": {
+      "title": "Bleiben Sie auf dem Laufenden",
+      "button": "Blog besuchen"
+    },
+    "faq": {
+      "title": "FAQs",
+      "subtitle": "Noch offene Fragen? Erhalte Antworten auf all deine Fragen.",
+      "faq_questions": [
+        {
+          "title": "Sind eure Websites responsiv?",
+          "content": "Auf jeden Fall! Alle unsere Websites sind darauf ausgelegt, responsiv zu sein und bieten ein nahtloses Benutzererlebnis auf Desktops, Tablets und Smartphones."
+        },
+        {
+          "title": "Wie lange dauert es, eine Website zu entwerfen und zu entwickeln?",
+          "content": "Die Zeit für ein Webprojekt kann je nach Komplexität und Anforderungen variieren. Wir arbeiten jedoch eng mit unseren Kunden zusammen, um deren Fristen zu erfüllen und eine reibungslose Lieferung zu gewährleisten."
+        },
+        {
+          "title": "Könnt Ihr meine bestehende Website neu gestalten?",
+          "content": "Natürlich! Wir können deine aktuelle Website bewerten, Bereiche für Verbesserungen identifizieren und an einer Neugestaltung arbeiten, um Funktionalität und Ästhetik zu verbessern."
+        },
+        {
+          "title": "Wie viel kostet eine Website?",
+          "content": "Die Kosten für eine Website hängen von verschiedenen Faktoren ab, einschließlich der Komplexität, Funktionen und des erforderlichen individuellen Entwicklungsanteils. Nachdem wir deine Projektanforderungen verstehen erstellen wir eine detaillierte Kostenschätzung."
+        },
+        {
+          "title": "Was macht eure Agentur einzigartig?",
+          "content": "Unsere Ansprüche zur Qualität, Kundenzufriedenheit und die Verwendung moderner Webentwicklungstechnologien zeichnen uns aus. Wir arbeiten eng mit unseren Kunden zusammen, um sicherzustellen, dass deine Vision durch unsere Arbeit bestmöglich umgesetzt wird."
+        },
+        {
+          "title": "Wie ist der Prozess für das Design und die Entwicklung einer Website?",
+          "content": "Unser Prozess beginnt mit einer Analyse, um deine Ziele und Anforderungen zu verstehen. Anschließend gehen wir zu Design-Entwürfen über, gefolgt von Entwicklung, Tests und schließlich der Veröffentlichung. Wir stellen sicher, dass unsere Kunden während des gesamten Prozesses eingebunden sind."
+        },
+        {
+          "title": "Wie viele Überarbeitungen sind inklusive?",
+          "content": "Während des Designprozesses stehen wir für so viele Überarbeitungen bereit, bis Sie zufrieden sind. Sobald wir das richtige Design finden und mit der Entwicklung der Website beginnen, greifen wir nicht mehr in den Designprozess ein."
+        },
+        {
+          "title": "Wie kommunizieren wir während der Zusammenarbeit?",
+          "content": "Wir verwenden Trello für Projektmanagement und Kommunikation während des Entwicklungsprozesses. Über ein strukturiertes Projektboard können Sie den Fortschritt verfolgen, Feedback geben und in Echtzeit mit unserem Team interagieren."
+        },
+        {
+          "title": "Gibt es Rückerstattungen, wenn mir der Service nicht gefällt?",
+          "content": "Aufgrund der hochwertigen Qualität unserer Arbeit werden keine Rückerstattungen gestattet."
+        }
+      ]
+    },
+    "footer": {
+      "call_to_action": {
+        "title": "Lass uns arbeiten!",
+        "subtitle": "Kontaktiere uns und wir senden dir ein exklusives Angebot, um dein Projekt sofort zu starten.",
+        "button_one": "Loslegen",
+        "button_two": "Fragen?",
+        "image": ""
+      },
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutz- und Cookie-Richtlinien"
+    }
+  },
+  "contact": {
+    "headline": "Lass uns dein Projekt umsetzen.",
+    "subtitle": "Beschreibe uns deine Vorstellungen vom Projekt, und wir melden uns innerhalb von 24 Stunden bei dir.",
+    "help_headline": "Wobei können wir dir helfen?",
+    "pages_headline": "Wie viele Seiten benötigst du?",
+    "time_headline": "Wie schnell sollte es erledigt sein?",
+    "budget_headline": "Was ist dein geschätztes Budget?",
+    "name": {
+      "name_headline": "Name",
+      "name_placeholder": "Vor- und Nachname"
+    },
+    "email": {
+      "email_headline": "E-Mail-Adresse",
+      "email_placeholder": "E-Mail-Adresse"
+    },
+    "company": {
+      "company_headline": "Unternehmen",
+      "company_placeholder": "Name des Unternehmens"
+    },
+    "textarea": {
+      "textarea_headline": "Was sollten wir noch wissen?",
+      "textarea_placeholder": "Teile uns etwas über dein Projekt mit..."
+    },
+    "form_button": "Anfrage senden",
+    "terms_of_use": "Durch Klicken auf Anfrage senden stimmst du unseren",
+    "terms_of_use_a": "Nutzungsbedingungen zu.",
+    "form_valid": {
+      "select_pages_valid": "Bitte wähle die Anzahl der Seiten aus, die du benötigst.",
+      "select_service_valid": "Bitte wähle ein oder mehrere Leistungen aus.",
+      "select_time_valid": "Bitte wähle eine Deadline.",
+      "select_budget_valid": "Bitte wähle dein geschätztes Budget."
+    },
+    "help": {
+      "web_design": "Webdesign",
+      "web_dev": "Webentwicklung",
+      "hosting_support": "Hosting Support",
+      "digital_web": "Digitale Webstrategie",
+      "content_management": "Content Management System",
+      "other": "Sonstiges"
+    },
+    "pages": {
+      "page_option_one": "1 - 2 Seiten",
+      "page_option_two": "3 - 4 Seiten",
+      "page_option_three": "5 - 6 Seiten",
+      "page_option_four": "7+ Seiten"
+    },
+    "time": {
+      "time_option_one": "< 1 Woche",
+      "time_option_two": "1 - 2 Wochen",
+      "time_option_three": "2 - 4 Wochen",
+      "time_option_four": "5+ Wochen"
+    },
+    "budget": {
+      "budget_option_one": "€1k - €2k",
+      "budget_option_two": "€2k - €4k",
+      "budget_option_three": "€4k - €8k",
+      "budget_option_four": "€8k+"
+    }
+  },
+  "thank_you": {
+    "headline": "Vielen Dank!",
+    "paragraph": "Wir melden uns innerhalb der nächsten 24 Stunden bei Ihnen.",
+    "button": "Zurück zur Startseite"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "navigation": {
+    "services": "Services",
+    "benefits": "Benefits",
+    "work": "Our Work",
+    "faq": "FAQ",
+    "navbtn": "Contact us"
+  },
+  "page": {
+    "header": {
+      "title": "Beside creates websites to scale your business",
+      "subtitle": "Beside is a UI/UX Design Agency that makes your website the face of your success.",
+      "cta_started": "Get Started",
+      "cta_study": "Case Study"
+    },
+    "services": {
+      "title": "Powerful landing and business pages",
+      "subtitle": "Beside builds professional websites that lead to more business growth and online presence",
+      "button": "Get Started",
+      "servicecards": [
+        {
+          "title": "Web Design",
+          "para": "Fully responsive and SEO-Optimized Landing- and Business Pages"
+        },
+        {
+          "title": "Development",
+          "para": "Scalable and secure Web Solutions built with Next.js"
+        },
+        {
+          "title": "Hosting",
+          "para": "Easy hosting and deployment service for quick loading times"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Benefits in one place",
+      "subtitle": "From Google Full-Service to optimizing your conversion rates and reach. Explore all of our benefits in one place.",
+      "button": "Choose Your Service",
+      "benefitcards": [
+        {
+          "title": "Brand Image",
+          "para": "Unleash full brand potential, capturing attention and client loyalty.",
+          "img": "/brandimage.riv"
+        },
+        {
+          "title": "Google Visibility",
+          "para": "Enhanced online presence, ensuring you're found by the right audience.",
+          "img": "/google.riv"
+        },
+        {
+          "title": "Conversion Rates",
+          "para": "Directing visitor flow to boost sales and client engagement effectively.",
+          "img": "/conversion.riv"
+        },
+        {
+          "title": "Fast Loading Times",
+          "para": "Quick load times for smooth user experiences on your site.",
+          "img": "/fastloading.riv"
+        },
+        {
+          "title": "Modern User Experience",
+          "para": "Sleek and intuitive interfaces ensuring an user-friendly experience.",
+          "img": "/user_experience.riv"
+        },
+        {
+          "title": "DSGVO Compliance",
+          "para": "Compliance with data protection laws that ensures safety and trust.",
+          "img": "/dsgvo.riv"
+        }
+      ]
+    },
+    "work": {
+      "title": "Recent projects",
+      "subtitle": "Discover Our Recent Successes: A Portfolio of Latest Projects and Innovative Designs",
+      "button": "View recent work",
+      "workcards": [
+        {
+          "title": "Mobile",
+          "para": "Quick table reservation via mobile phone",
+          "img": "/de/work_iphone.png",
+          "img_class": "work-card-img-mobile",
+          "cardBodyClass": "work-card-body-mobile"
+        },
+        {
+          "title": "Desktop",
+          "para": "Landing Page, table reservation and menu card",
+          "img": "/de/work_macbook.png",
+          "img_class": "work-card-img-desktop",
+          "cardBodyClass": "work-card-body-desktop"
+        }
+      ]
+    },
+    "blogpreview": {
+      "title": "Keep up to date",
+      "button": "Visit blog"
+    },
+    "faq": {
+      "title": "FAQs",
+      "subtitle": "Any questions left? Get answers to all of your questions",
+      "faq_questions": [
+        {
+          "title": "Do you offer mobile-responsive design?",
+          "content": "Absolutely! All of our websites are designed to be responsive, ensuring a seamless user experience on desktops, tablets, and smartphones."
+        },
+        {
+          "title": "How long does it take to design and develop a website?",
+          "content": "The timeline for a web project can vary based on the complexity and the requirements of the project. However, we work closely with our clients to meet their deadlines and ensure a smooth delivery."
+        },
+        {
+          "title": "Can you redesign my existing website?",
+          "content": "Absolutely! We can evaluate your current website, identify areas for improvement, and work on a redesign to enhance its functionality and aesthetics."
+        },
+        {
+          "title": "How much does a website cost?",
+          "content": "The cost of a website depends on various factors including the complexity, features, and the amount of custom development required. We provide a detailed estimate after understanding your project requirements."
+        },
+        {
+          "title": "What makes your agency unique?",
+          "content": "Our commitment to quality, client satisfaction, and the use of modern web development technologies sets us apart. We work closely with our clients to ensure their vision is brought to life through our digital solutions."
+        },
+        {
+          "title": "What is the process for designing and developing a website?",
+          "content": "Our process begins with a consultation to understand your goals and requirements. We then move on to design mockups, followed by development, testing, and finally, launch. We ensure to keep our clients involved and updated throughout the process."
+        },
+        {
+          "title": "How many revisions are included?",
+          "content": "During the design process, you can submit as many revisions until you are satisfied. However, once we find the right design and start developing the website, we will no longer go in the design process."
+        },
+        {
+          "title": "How do we communicate during the website development process?",
+          "content": "We utilize Trello for project management and communication during the website development process. Through a dedicated project board, you can track progress, provide feedback, and interact with our team in real time."
+        },
+        {
+          "title": "Are there any refunds if I dont like the service?",
+          "content": "Due to the high quality nature of the work, there will be no refunds issued."
+        }
+      ]
+    },
+    "footer": {
+      "call_to_action": {
+        "title": "Let's work together!",
+        "subtitle": "Contact us and we will send you an exclusive offer to start your project right away.",
+        "button_one": "Contact us",
+        "button_two": "Questions?",
+        "image": ""
+      },
+      "terms": "Terms of Service",
+      "privacy": "Privacy & Cookie Policy"
+    }
+  },
+  "contact": {
+    "headline": "Let's build an awesome project together.",
+    "subtitle": "Describe your project and we’ll get back to you within 24 hours.",
+    "help_headline": "What do you need help with?",
+    "pages_headline": "How many pages do you need?",
+    "time_headline": "How fast should it be done?",
+    "budget_headline": "What is your estimated budget?",
+    "name": {
+      "name_headline": "Name",
+      "name_placeholder": "Personal Name"
+    },
+    "email": {
+      "email_headline": "Email address",
+      "email_placeholder": "Email address"
+    },
+    "company": {
+      "company_headline": "Company",
+      "company_placeholder": "Company"
+    },
+    "textarea": {
+      "textarea_headline": "What should we also know?",
+      "textarea_placeholder": "Tell us something about your project..."
+    },
+    "form_button": "Send request",
+    "terms_of_use": "By clicking Submit, you agree to our",
+    "terms_of_use_a": "Terms of Use.",
+    "form_valid": {
+      "select_pages_valid": "Please select the number of pages you need.",
+      "select_service_valid": "Please select one or more services.",
+      "select_time_valid": "Please select a deadline.",
+      "select_budget_valid": "Please select your estimated budget."
+    },
+    "help": {
+      "web_design": "Web Design",
+      "web_dev": "Web Development",
+      "hosting_support": "Hosting Support",
+      "digital_web": "Digital Web Strategy",
+      "content_management": "Content Management System",
+      "other": "Other"
+    },
+    "pages": {
+      "page_option_one": "1 - 2 pages",
+      "page_option_two": "3 - 4 pages",
+      "page_option_three": "5 - 6 pages",
+      "page_option_four": "7+ pages"
+    },
+    "time": {
+      "time_option_one": "< 1 weeks",
+      "time_option_two": "1 - 2 weeks",
+      "time_option_three": "2 - 4 weeks",
+      "time_option_four": "5+ weeks"
+    },
+    "budget": {
+      "budget_option_one": "€1k - €2k",
+      "budget_option_two": "€2k - €4k",
+      "budget_option_three": "€4k - €8k",
+      "budget_option_four": "€8k+"
+    }
+  },
+  "thank_you": {
+    "headline": "Thank You!",
+    "paragraph": "We will reach out to you within the next 24 hours.",
+    "button": "Back to home"
+  }
+}
