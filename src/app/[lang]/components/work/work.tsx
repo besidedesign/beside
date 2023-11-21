@@ -21,7 +21,11 @@ export default async function Work({ lang }: { lang: Locale }) {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2">
           <h6>{page.work.subtitle}</h6>
-          <Link href="/" className="md:ml-auto">
+          <Link
+            href="https://www.figma.com/proto/woWazDNnpb3Q8VzbgiJAGm/Sample-Work?type=design&node-id=0%3A1&mode=design&t=VamHPuvz9qTEJ4hY-1"
+            className="md:ml-auto"
+            target="_blank"
+          >
             <button
               type="button"
               className="beside-btn work-btn flex items-center justify-center"

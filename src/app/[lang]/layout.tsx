@@ -61,7 +61,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang={params.lang}>
-      <GoogleAnalytics GA_MEASUREMENT_ID="G-X1GF127BV2" />
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-HNNSRWEKNR" />
       <body
         className={`${neueMontreal.variable} ${InterFont.variable} font-sans`}
       >
