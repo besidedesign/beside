@@ -1,4 +1,5 @@
 "use client";
+//import { getDictionary } from "@/lib/dictionary";
 import { useEffect, useState, useRef } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import Link from "next/link";
@@ -14,7 +15,6 @@ import Logo from "@/images/logo-black.svg";
 import BurgerMenu from "@/images/navbar/burger-menu.svg";
 import LocaleSwitcher from "@/app/[lang]/components/navbar/locale-switcher";
 import { Locale } from "@/i18n.config";
-import { getDictionary } from "@/lib/dictionary";
 
 export default function Navbar({ lang }: { lang: Locale }) {
   const [scrollPosition, setScrollPosition] = useState(0);

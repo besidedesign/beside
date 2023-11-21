@@ -2,8 +2,9 @@
 import Link from "next/link";
 import { getLocalStorage, setLocalStorage } from "@/lib/storageHelper";
 import { useState, useEffect } from "react";
+import { Locale } from "@/i18n.config";
 
-export default function CookieBanner() {
+export default function CookieBanner({ lang }: { lang: Locale }) {
   const [cookieConsent, setCookieConsent] = useState(false);
 
   useEffect(() => {
@@ -38,7 +39,7 @@ export default function CookieBanner() {
         <p>
           We use cookies (and other similar technologies) to improve your
           experience on our site. By using this website you agree to our{" "}
-          <Link href="/privacy-policy">
+          <Link href={`/${lang}/privacy-policy`}>
             <span className="cookie-anchor">Cookie Policy</span>
           </Link>
           .

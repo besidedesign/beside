@@ -686,6 +686,7 @@ CONTACT
 /** TEXTAREA **/
 .input-textarea {
   color: var(--ctitle);
+  line-height: 18px;
 }
 
 .input-textarea::placeholder {
