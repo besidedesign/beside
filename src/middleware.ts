@@ -11,7 +11,7 @@ function normalizeLocale(locale: string): string {
   return locale.split("-")[0];
 }
 
-function getLocale(request: NextRequest): string | undefined {
+function getLocale(request: NextRequest): string {
   const negotiatorHeaders: Record<string, string> = {};
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
 
@@ -22,7 +22,8 @@ function getLocale(request: NextRequest): string | undefined {
   const normalizedLanguages = languages.map(normalizeLocale);
   const locale = matchLocale(normalizedLanguages, locales, i18n.defaultLocale);
 
-  return locale;
+  // Rückgabe des defaultLocale, falls kein gültiges Locale gefunden wird
+  return locale || i18n.defaultLocale;
 }
 
 export function middleware(request: NextRequest) {
