@@ -18,9 +18,18 @@ function getLocale(request: NextRequest): string {
   const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
 
   const normalizedLanguages = languages.map(normalizeLocale);
-  const locale = matchLocale(normalizedLanguages, locales, i18n.defaultLocale);
 
-  return locale || i18n.defaultLocale;
+  try {
+    const locale = matchLocale(
+      normalizedLanguages,
+      locales,
+      i18n.defaultLocale
+    );
+    return locale || i18n.defaultLocale;
+  } catch (error) {
+    console.error("Failed to match locale:", error);
+    return i18n.defaultLocale;
+  }
 }
 
 export function middleware(request: NextRequest) {
