@@ -34,6 +34,12 @@ function getLocale(request: NextRequest): string {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+
+  if (pathname === "/robots.txt") {
+    return;
+  }
+
+  // Lokalisierungslogik für andere Routen
   const pathnameIsMissingLocale = i18n.locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
